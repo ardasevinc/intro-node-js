@@ -19,7 +19,9 @@
 
 ## Course
 This course has two parts, slides and exercises. The slides describe the exercises in detail. Each exercise has a folder
+
 ## Exercises
+
 ### Installing Node
 Install node with [node version manager (NVM)](https://github.com/creationix/nvm#installation). NVM was created by the community and not the Nodejs foundation. However, it is the recommended approach. After installing nvm, use nvm to install the lates version of Nodejs, which at this time is `10` and set it to the default version
 ```bash
@@ -29,6 +31,7 @@ nvm alias default node
 If this fails, or you want to install nodejs from nodejs source, [then go here](https://nodejs.org/en/)
 
 Important: After installing node, please run `npm install i` or `npm install` to install the dependencies located in the `package.json` file (utilized in future exercises).
+
 ### Modules (node vs browser)
 * location - `exercises/modules`
 * commands
@@ -39,6 +42,7 @@ This exercise will have you convert some JavaScript written for the browser, so 
 - [ ] check the README on how to run test (will talk later about that command)
 - [ ] fix and convert the 3 js files in the exercises/modules/browser to Nodejs JavaScript and place them in exercises/modules/node
 - [ ] ensure all tests pass by running test command again
+
 ### CLI (npm)
 * location - `exercises/cli`
 * commands
